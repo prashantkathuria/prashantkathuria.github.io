@@ -1,0 +1,43 @@
+# Site settings
+title: Prashant Kathuria's Blog
+description: a b c d e f 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sharp-ant.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Prashant Kathuria
+user_description: Data Scientist at Celebal Corp
+user_title: Data Scientist
+email: prashant.kathuria07@gmail.com
+twitter_username: thevilsoul
+github_username:  sharp-ant
+gplus_username:  prashant.kathuria07
+disqus_username: #thevilsoul
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
